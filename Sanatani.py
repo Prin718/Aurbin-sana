@@ -222,8 +222,8 @@ async def main():
         LOGGER.info(f"🚫 Assistant Error: {e}")
         sys.exit()
     try:
-        await app.join_chat("BABY09_WORLD")
-        await app.join_chat("+OL6jdTL7JAJjYzVl")
+        await app.join_chat("Ur_Rishu_143")
+        await app.join_chat("Vip_robotz")
     except Exception:
         pass
     if LOG_GROUP_ID != 0:
@@ -1025,10 +1025,10 @@ async def stream_audio_or_video(client, message):
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/BABY09_WORLD"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/Ur_Rishu_143"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/Ur_support07"
             )
         ],
         [
@@ -1104,10 +1104,10 @@ async def stream_audio_or_video(client, message):
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/BABY09_WORLD"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/Ur_Rishu_143"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/Ur_support07"
             )
         ],
         [
@@ -1431,11 +1431,11 @@ async def git_repo_link(client, message):
         [
             InlineKeyboardButton(
                 text="˹ sᴜᴘᴘᴏꝛᴛ ˼",
-                url="https://t.me/+OL6jdTL7JAJjYzVl"
+                url="https://t.me/Ur_Rishu_143"
             ),
             InlineKeyboardButton(
                 text="˹ sᴏᴜꝛᴄᴇ ˼",
-                url="https://github.com/BABY-MUSIC/SANATANI_MxPLAYER"
+                url="https://github.com/"
             ),
         ],
         [
