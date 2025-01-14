@@ -374,13 +374,10 @@ ABUTTON = InlineKeyboardMarkup(
 HELP_C = """```
 ⌬ ๏ ʟᴇᴛ's ɪɴᴛʀᴏᴅᴜᴄᴇ ᴍᴜsɪᴄ ʙᴏᴛ```
 
-**⌬ [【◖ Sαηαтαηι ◗ 】 🚩](https://t.me/Ur_rishu_143) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
+**⌬ [【 Sαηαтαηι 】 🚩](https://t.me/Ur_rishu_143) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
 ```\n⌬ ʙᴇsᴛ ғᴇᴀsɪʙɪʟɪᴛʏ ᴏɴ ᴛᴏᴘ  ?```
 
 **␥ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ
-␥ sᴜᴘᴘᴏʀᴛ ᴠ2.0 ᴀᴜᴅɪᴏ sᴍᴏᴏᴛʜ
-␥ ɴᴏ ʏᴛ ɪᴘ ʙʟᴏᴄᴋ ɪssᴜᴇ
-␥ ʙᴧsᴇᴅ ᴏɴ ɴᴇᴡ ᴠᴇꝛsɪᴏɴ ᴏғ ᴘʏꝛᴏ-ɢꝛᴧᴍ
 ␥ ɴᴏ ᴘꝛᴏᴍᴏᴛɪᴏɴᴧʟ ᴧᴅs | ʜɪɢʜ ᴜᴘ-ᴛɪᴍᴇ 
 ␥ ʜɪɢʜ ɪɴғꝛᴧsᴛꝛᴜᴄᴛᴜꝛᴇ sᴇꝛᴠᴇꝛ
 ␥ ꝛᴇ-ᴇᴅɪᴛᴇᴅ ᴄᴏꝛᴇ | ʜɪɢʜʟʏ ᴏᴘᴛɪᴍɪsᴇ
@@ -392,7 +389,7 @@ HELP_C = """```
 ⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/Ur_rishu_143)**"""
 
 HELP_X = """```
-    【◖ Sαηαтαηι ◗ 】 🚩 ᴍᴇɴᴜ```
+    【 Sαηαтαηι 】 🚩 ᴍᴇɴᴜ```
 **ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /
 ␥ /play - Pʟᴀʏ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ sᴏɴɢ [ᴀᴜɪᴅᴏ].
 
@@ -406,7 +403,7 @@ HELP_X = """```
 
 ␥ /end - Cʟᴇᴀʀ , ᴇɴᴅ ᴀʟʟ sᴏɴɢ [ᴀᴜɪᴅᴏ & ᴠɪᴅᴇᴏ]
 
-V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/Ur_rishu_143)**"""
+❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ - [ʀɪsʜυ ʙσᴛ](https://t.me/Ur_rishu_143)**"""
 
 # Callback query handler
 @bot.on_callback_query(filters.regex("UTTAM_RATHORE"))
@@ -1485,7 +1482,7 @@ async def update_repo_latest(client, message):
         format,
         "tsnrhtdd"[(format // 10 % 10 != 1) * (format % 10 < 4) * format % 10 :: 4],
     )
-    for info in repo.iter_commits(f"HEAD..origin/aditya"):
+    for info in repo.iter_commits(f"HEAD..origin/main"):
         updates += f"<b>➣ #{info.count()}: [{info.summary}]({REPO_}/commit/{info}) by -> {info.author}</b>\n\t\t\t\t<b>➥ Commited on:</b> {ordinal(int(datetime.fromtimestamp(info.committed_date).strftime('%d')))} {datetime.fromtimestamp(info.committed_date).strftime('%b')}, {datetime.fromtimestamp(info.committed_date).strftime('%Y')}\n\n"
     _update_response_ = "<b>A new update is available for the Bot!</b>\n\n➣ Pushing Updates Now</code>\n\n**<u>Updates:</u>**\n\n"
     _final_updates_ = _update_response_ + updates
