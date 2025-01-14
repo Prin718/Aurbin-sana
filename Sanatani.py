@@ -80,11 +80,11 @@ if os.path.exists("Config.env"):
     load_dotenv("Config.env")
 
 
-API_ID = int(getenv("API_ID", "0"))
-API_HASH = getenv("API_HASH", "0")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-STRING_SESSION = getenv("STRING_SESSION", "")
-MONGO_DB_URL = getenv("MONGO_DB_URL", "")
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
+BOT_TOKEN = getenv("BOT_TOKEN")
+STRING_SESSION = getenv("STRING_SESSION")
+MONGO_DB_URL = getenv("MONGO_DB_URL")
 OWNER_ID = int(getenv("OWNER_ID", "5738579437"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002043870188"))
 START_IMAGE_URL = getenv("START_IMAGE_URL", "https://envs.sh/v3_.mp4")
