@@ -95,7 +95,7 @@
     ```
     </details>
 ---
-
+<details>
 ### 🛠 Commands & Usage
 
 The Sanatani Music Bot offers a range of commands to enhance your music listening experience on Telegram:
@@ -112,6 +112,7 @@ The Sanatani Music Bot offers a range of commands to enhance your music listenin
 For a full list of commands, use `/help` in [telegram](https://t.me/SANATANI_X_BOT).
 
 ---
+</details>
 ━━━━━━━━━━━━━━━━━━━━
 
 <h3 align="center">
