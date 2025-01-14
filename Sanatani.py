@@ -87,7 +87,7 @@ STRING_SESSION = getenv("STRING_SESSION", "")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "")
 OWNER_ID = int(getenv("OWNER_ID", "5738579437"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002043870188"))
-START_IMAGE_URL = getenv("START_IMAGE_URL", "https://files.catbox.moe/3o7nd8.mp4")
+START_IMAGE_URL = getenv("START_IMAGE_URL", "https://envs.sh/v3_.mp4")
 REPO_IMAGE_URL = getenv("REPO_IMAGE_URL", "https://files.catbox.moe/nswh7s.jpg")
 STATS_IMAGE_URL = getenv("STATS_IMAGE_URL", "https://files.catbox.moe/2hgoq7.jpg")
 
